@@ -34,6 +34,14 @@ dependencies {
     implementation 'com.google.dagger:dagger-android:2.15'
     kapt 'com.google.dagger:dagger-compiler:2.15'
     kapt 'com.google.dagger:dagger-android-processor:2.15'
+    //Room
+    implementation "android.arch.persistence.room:runtime:${rootProject.ext.archVersion}"
+    kapt "android.arch.persistence.room:compiler:${rootProject.ext.archVersion}"
+    //Lifecycle
+    implementation "android.arch.lifecycle:extensions:${rootProject.ext.archVersion}"
+    kapt "android.arch.lifecycle:compiler:${rootProject.ext.archVersion}"
+    //moshi
+    implementation "com.squareup.moshi:moshi-kotlin:${rootProject.ext.moshiKotlinVersion}"
     //tests
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

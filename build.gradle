@@ -23,6 +23,11 @@ allprojects {
     }
 }
 
+ext{
+    archVersion = "1.0.0"
+    moshiKotlinVersion = "1.5.0"
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
