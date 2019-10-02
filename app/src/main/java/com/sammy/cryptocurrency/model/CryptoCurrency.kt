@@ -8,7 +8,7 @@ import java.io.Serializable
 @Entity(
     tableName = "cryptocurrency"
 )
-data class Cryptocurrency(
+data class CryptoCurrency(
 
     @Json(name = "id")
     @PrimaryKey
