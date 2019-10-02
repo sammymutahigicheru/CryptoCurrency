@@ -1,4 +1,4 @@
-package com.sammy.cryptocurrency.data
+package com.sammy.cryptocurrency.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
